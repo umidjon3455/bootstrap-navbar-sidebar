@@ -1,2 +1,37 @@
-node_modules/*
-package-lock.json
+# Dependencies
+node_modules/
+
+# Generated object files and executable
+.objects/
+webserv
+
+# Prerequisites and compiled artifacts
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.smod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local notes and uploaded test data
+*notes*
+uploaded_stuff/
